@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: fastapi-service
-          image: solo37/250228dockerlearn.git
+          image: solo37/0306dockerlearn
           imagePullPolicy: Always
           env:
             - name: POSTGRES_PASSWORD
